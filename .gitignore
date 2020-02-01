@@ -1,0 +1,78 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/pagination-angular/dist
+/pagination-angular/tmp
+/pagination-angular/out-tsc
+# Only exists if Bazel was run
+/pagination-angular/bazel-out
+
+# dependencies
+/pagination-angular/node_modules
+
+# profiling files
+chrome-profiler-events*.json
+speed-measure-plugin*.json
+
+# IDEs and editors
+/pagination-angular/.idea
+/pagination-angular/.project
+/pagination-angular/.classpath
+/pagination-angular/.c9/
+/pagination-angular/*.launch
+/pagination-angular/.settings/
+/pagination-angular/*.sublime-workspace
+
+HELP.md
+spring-data-pagination/target/
+!spring-data-pagination/.mvn/wrapper/maven-wrapper.jar
+!**spring-data-pagination/src/main/**
+!**spring-data-pagination/src/test/**
+
+### STS ###
+spring-data-pagination/.apt_generated
+spring-data-pagination/.classpath
+spring-data-pagination/.factorypath
+spring-data-pagination/.project
+spring-data-pagination/.settings
+spring-data-pagination/.springBeans
+spring-data-pagination/.sts4-cache
+
+### IntelliJ IDEA ###
+spring-data-pagination/.idea
+spring-data-pagination/*.iws
+spring-data-pagination/*.iml
+spring-data-pagination/*.ipr
+
+### NetBeans ###
+spring-data-pagination/nbproject/private/
+spring-data-pagination/nbbuild/
+spring-data-pagination/dist/
+spring-data-pagination/nbdist/
+spring-data-pagination/.nb-gradle/
+spring-data-pagination/build/
+
+### VS Code ###
+spring-data-pagination/.vscode/
+
+# IDE - VSCode
+spring-data-pagination/.vscode/*
+!spring-data-pagination/.vscode/settings.json
+!spring-data-pagination/.vscode/tasks.json
+!spring-data-pagination/.vscode/launch.json
+!spring-data-pagination/.vscode/extensions.json
+spring-data-pagination/.history/*
+
+# misc
+spring-data-pagination/.sass-cache
+spring-data-pagination/connect.lock
+spring-data-pagination/coverage
+spring-data-pagination/libpeerconnection.log
+spring-data-pagination/npm-debug.log
+spring-data-pagination/yarn-error.log
+spring-data-pagination/testem.log
+spring-data-pagination//typings
+
+# System Files
+spring-data-pagination/.DS_Store
+spring-data-pagination/Thumbs.db
