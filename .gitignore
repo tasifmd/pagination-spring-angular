@@ -25,7 +25,7 @@ speed-measure-plugin*.json
 
 HELP.md
 spring-data-pagination/target/
-!spring-data-pagination/.mvn/wrapper/maven-wrapper.jar
+spring-data-pagination/.mvn/wrapper/maven-wrapper.jar
 !**spring-data-pagination/src/main/**
 !**spring-data-pagination/src/test/**
 
